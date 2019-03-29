@@ -1,7 +1,7 @@
 ---
 title: Projects
 layout: page
-description: What we're working on
+description: 'What we're working on'
 nav-menu: true
 ---
 

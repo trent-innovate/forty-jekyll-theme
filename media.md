@@ -1,7 +1,7 @@
 ---
-title: Events2
+title: Media
 layout: landing
-description: 'Lorem ipsum dolor sit amet nullam consequa<br />sed veroeros. tempus adipiscing nulla.'
+description: 'Our Photos and Videos.'
 image: assets/images/pic07.jpg
 nav-menu: true
 ---

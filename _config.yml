@@ -3,7 +3,7 @@ title: Innovate Trent
 # subtitle: by HTML5 UP
 email: innovate@trentu.ca
 # description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 # url: # the base hostname & protocol for your site
 # author:
 # street_address: 1234 Somewhere Road
@@ -14,8 +14,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 # phone: (716) 555-5555
 
 # homepage tiles
-tiles-source: posts # accepts "posts" or "pages"
-tiles-count: 3
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 6
 
 # social settings
 # 500px_url:

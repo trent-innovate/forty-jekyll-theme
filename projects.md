@@ -1,6 +1,6 @@
 ---
 title: Projects
-layout: page
+layout: landing
 description: What we're working on
 nav-menu: true
 ---

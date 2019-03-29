@@ -2,7 +2,7 @@
 title: Projects
 layout: page
 description: 'What we're working on'
-nav-menu: false
+nav-menu: true
 ---
 
 <!-- Main -->

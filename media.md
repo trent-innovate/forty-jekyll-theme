@@ -1,7 +1,7 @@
 ---
 title: Media
-layout: landing
-description: Lorem ipsum dolor est
+layout: page
+description: Some of our pictures and videos
 image: assets/images/pic11.jpg
 nav-menu: true
 ---

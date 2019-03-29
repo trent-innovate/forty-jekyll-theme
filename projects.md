@@ -44,7 +44,7 @@ nav-menu: true
 <hr class="major" />
 
 <!-- Elements -->
-<h2 id="elements">Elements</h2>
+<h2 id="elements">Projects</h2>
 <div class="row 200%">
 	<div class="6u 12u$(medium)">
 

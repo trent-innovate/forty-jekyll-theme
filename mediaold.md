@@ -1,5 +1,5 @@
 ---
-title: Media
+title: Mediaold
 layout: landing
 description: 'Pictures and Videos.'
 image: assets/images/pic07.jpg

@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-landing-title: 'Hi, we are Innovate Trent'
+landing-title: 'Hi, We're Innovate Trent!'
 description: null
 image: null
 author: null

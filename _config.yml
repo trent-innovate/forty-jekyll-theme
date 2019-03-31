@@ -1,28 +1,27 @@
 # site settings
 title: Innovate Trent
-# subtitle: by HTML5 UP
+# subtitle:
 email: innovate@trentu.ca
-# description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
+description: "We're a group of students at Trent University dedicated to making cool stuff!"
 # baseurl: "" # the subpath of your site, e.g. /blog
 # url: # the base hostname & protocol for your site
-# author:
+author: Innovate Trent
 # street_address: 1234 Somewhere Road
-# city: Nashville
-# state: TN
+city: Peterborough
+state: Ontario
 # zip_code: 55555
-# country: United States of America
+country: Canada
 # phone: (716) 555-5555
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
-tiles-count: 6
+tiles-count: 3
 
 # social settings
 # 500px_url:
 facebook_url: https://www.facebook.com/groups/350257192197862/
-# github_url:
+github_url: https://github.com/trent-innovate
 # gitlab_url: https://gitlab.com/u/andrewbanchich
-# googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
 # instagram_url: https://instagram.com
 # linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
 # pinterest_url:

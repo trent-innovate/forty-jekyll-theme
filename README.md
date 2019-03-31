@@ -1,5 +1,5 @@
 # Innovate Trent's Website
-The official website of Innovate Trent
+The official website of Innovate Trent:
 [https://innovate.tretu.info](https://innovate.tretu.info)
 
 # Credits

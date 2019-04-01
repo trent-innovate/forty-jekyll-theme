@@ -33,3 +33,9 @@ markdown: kramdown
 
 sass:
   style: compressed
+
+plugins:
+ - jekyll-seo-tag
+ 
+whitelist:
+ - jekyll-seo-tag

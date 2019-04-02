@@ -1,7 +1,7 @@
 ---
 layout: page
 title: News
-description: View our Pictures and Videos
+description: What we're working on
 nav-menu: true
 showit: 1
 ---

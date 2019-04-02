@@ -3,7 +3,7 @@ layout: page
 title: About Us
 description: Find out about Innovate Trent!
 nav-menu: true
-showit: 0
+showit: 1
 ---
 
 <!-- Main -->

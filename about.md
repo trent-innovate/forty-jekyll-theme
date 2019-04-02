@@ -1,10 +1,9 @@
 ---
 layout: page
-title: Media
-description: View our Pictures and Videos
+title: About Us
+description: Find out about Innovate Trent!
 nav-menu: true
-showinlist: 1
-showit: 1
+showit: 0
 ---
 
 <!-- Main -->
@@ -14,5 +13,5 @@ showit: 1
 <section id="one">
 	<div class="inner">
 		<header class="major">
-			<h1>Media</h1>
+			<h1>About Us</h1>
 		</header>

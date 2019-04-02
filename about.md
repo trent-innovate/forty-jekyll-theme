@@ -15,3 +15,5 @@ showit: 1
 		<header class="major">
 			<h1>About Us</h1>
 		</header>
+		
+{% include contact_form.html %}

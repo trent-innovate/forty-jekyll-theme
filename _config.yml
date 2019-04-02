@@ -4,7 +4,7 @@ title: Innovate Trent
 email: innovate@trentu.ca
 description: "We're a group of students at Trent University dedicated to making cool stuff!"
 # baseurl: "" # the subpath of your site, e.g. /blog
-# url: # the base hostname & protocol for your site
+url: "https://innovate.trentu.info" # the base hostname & protocol for your site
 author: Innovate Trent
 # street_address: 1234 Somewhere Road
 city: Peterborough
@@ -36,6 +36,22 @@ sass:
 
 plugins:
  - jekyll-seo-tag
+ - jekyll-sitemap
+ - emoji_for_jekyll
+ - jekyll-admin
+ - jekyll-feed
+ - jekyll-youtube
+ - jekyll-asciinema
+ - jekyll-language-plugin
+ - searchyll
  
 whitelist:
  - jekyll-seo-tag
+ - jekyll-sitemap
+ - emoji_for_jekyll
+ - jekyll-admin
+ - jekyll-feed
+ - jekyll-youtube
+ - jekyll-asciinema
+ - jekyll-language-plugin
+ - searchyll

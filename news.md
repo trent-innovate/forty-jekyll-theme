@@ -1,9 +1,8 @@
 ---
 layout: page
-title: Media
+title: News
 description: View our Pictures and Videos
 nav-menu: true
-showinlist: 1
 showit: 1
 ---
 
@@ -14,7 +13,7 @@ showit: 1
 <section id="one">
 	<div class="inner">
 		<header class="major">
-			<h1>Media</h1>
+			<h1>News</h1>
 		</header>
 
 <!-- Content -->

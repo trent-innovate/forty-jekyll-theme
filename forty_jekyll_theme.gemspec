@@ -15,5 +15,14 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "jekyll", "~> 3.3"
   spec.add_development_dependency "bundler", "~> 2.0.1"
   spec.add_development_dependency "jekyll-redirect-from"
-
+  spec.add_development_dependency "emoji_for_jekyll"
+  spec.add_development_dependency "jekyll-seo-tag"
+  spec.add_development_dependency "jekyll-sitemap"
+  spec.add_development_dependency "jekyll-admin"
+  spec.add_development_dependency "jekyll-feed"
+  spec.add_development_dependency "jekyll-youtube"
+  spec.add_development_dependency "jekyll-asciinema"
+  spec.add_development_dependency "jekyll-language-plugin"
+  spec.add_development_dependency "searchyll"
+  
 end

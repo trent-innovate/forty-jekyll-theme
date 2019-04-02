@@ -1,7 +1,7 @@
 ---
-title: Projects
+title: Innovate Channels
 layout: page
-description: View a list of our current projects
+description: What's happening at Trent?
 image: assets/images/pic07.jpg
 nav-menu: true
 showit: 1
@@ -14,7 +14,7 @@ showit: 1
 <section id="one">
 	<div class="inner">
 		<header class="major">
-			<h2>Projects</h2>
+			<h2>Innovate Channels</h2>
 		</header>
 		<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
 	</div>

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About Us
-description: Find out about Innovate Trent!
+description: Find out more about Innovate Trent
 image: assets/images/stairs.jpg
 nav-menu: true
 showit: 1

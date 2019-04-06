@@ -36,3 +36,4 @@ sass:
  
 plugins:
   - searchyll
+  - jekyll-asciinema

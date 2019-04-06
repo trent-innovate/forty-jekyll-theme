@@ -2,7 +2,7 @@
 title: Innovate Trent
 # subtitle:
 email: innovate@trentu.ca
-description: "We're a group of students at Trent University dedicated to making cool stuff!"
+description: "We're a group of students at Trent University dedicated to making exciting ideas become reality!"
 # baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://innovate.trentu.info" # the base hostname & protocol for your site
 author: Innovate Trent
@@ -35,12 +35,6 @@ sass:
   style: compressed
  
 plugins:
-  - jekyll-asciinema
-  - jekyll-youtube
   - jekyll-sitemap
   - jemoji
   - jekyll-avatar
-
-whitelist:
- - jekyll-asciinema
- - jekyll-youtube

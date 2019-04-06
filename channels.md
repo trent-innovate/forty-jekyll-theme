@@ -2,7 +2,7 @@
 title: Innovate Channels
 layout: page
 description: What's happening at Trent?
-image: assets/images/pic07.jpg
+image: assets/images/downtown.jpg
 nav-menu: true
 showit: 1
 ---

@@ -35,7 +35,6 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
  - jekyll-sitemap
  - emoji_for_jekyll
  - jekyll-admin

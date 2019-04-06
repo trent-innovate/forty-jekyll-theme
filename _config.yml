@@ -45,18 +45,6 @@ plugins:
  - jekyll-language-plugin
  - searchyll
  
-whitelist:
- - jekyll-seo-tag
- - jekyll-sitemap
- - emoji_for_jekyll
- - jekyll-admin
- - jekyll-feed
- - jekyll-youtube
- - jekyll-asciinema
- - jekyll-language-plugin
- - searchyll
- 
- 
  elasticsearch:
    url: https://uham1rje51:vv57zd1ed4@innovate-trent-testi-4490576069.us-east-1.bonsaisearch.net
    index-name: innovate-trent-jekyll

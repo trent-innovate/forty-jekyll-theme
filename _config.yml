@@ -33,9 +33,6 @@ markdown: kramdown
 
 sass:
   style: compressed
-
-plugins:
- - searchyll
  
  elasticsearch:
    url: https://uham1rje51:vv57zd1ed4@innovate-trent-testi-4490576069.us-east-1.bonsaisearch.net

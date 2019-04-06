@@ -17,7 +17,7 @@ showit: 1
 			<h2>Innovate Channels</h2>
 		</header>
 </section>
-	
+</div>	
 	
 <!-- Three
 <section id="three">
@@ -32,4 +32,3 @@ showit: 1
 	</div>
 </section>
 -->
-</div>

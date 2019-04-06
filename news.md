@@ -16,7 +16,7 @@ showit: 1
 		<header class="major">
 			<h1>News</h1>
 		</header>
-		</section>
+		</section></div>
 
 <section id="two">
 	<div class="inner">
@@ -26,11 +26,9 @@ showit: 1
 	    <h1>{{ post.title }}</h1>
 	  </header>
 	  {% if post.date %}<p>{{ post.date }}</p>{% endif %}
-	  <a href="{{ page.url }}">{{ page.url }}</a>
+	  <a href="{{ post.url }}">{{ post.url }}</a>
 	  {% endif %}
           {% endfor %}
-	</div>
+	</div>	
 </section>
-	
-
 </div>

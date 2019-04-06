@@ -2,7 +2,7 @@
 layout: allposts
 title: Blog
 landing-title: 'Blog'
-nav-menu: true
+nav-menu: false
 description: 'A chronological list of our blog posts'
 image: null
 author: null

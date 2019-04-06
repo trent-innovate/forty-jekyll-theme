@@ -19,6 +19,7 @@ showit: 1
 
 <section id="two">
 	<div class="inner">
+	<span>
           {% for post in site.posts %}
 	  {% if post.title != 404 %}
 	  <header class="major">
@@ -27,8 +28,10 @@ showit: 1
 	  {% if post.date %}<p>{{ post.date }}</p>{% endif %}
 	  <a href="{{ post.url }}">Read More</a>
 	  <br />
+		
 	  {% endif %}
           {% endfor %}
+	</span>
 	</div>	
 </section>
 

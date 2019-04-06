@@ -1,12 +1,12 @@
 source "https://rubygems.org"
 gemspec
-jekyll-redirect-from
-emoji_for_jekyll
-jekyll-seo-tag
-jekyll-sitemap
-jekyll-admin
-jekyll-feed
-jekyll-youtube
-jekyll-asciinema
-jekyll-language-plugin
-searchyll
+gem 'jekyll-redirect-from'
+gem 'emoji_for_jekyll'
+gem 'jekyll-seo-tag'
+gem 'jekyll-sitemap'
+gem 'jekyll-admin'
+gem 'jekyll-feed'
+gem 'jekyll-youtube'
+gem 'jekyll-asciinema'
+gem 'jekyll-language-plugin'
+gem 'searchyll'

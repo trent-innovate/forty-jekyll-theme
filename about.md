@@ -16,5 +16,15 @@ showit: 1
 		<header class="major">
 			<h1>About Us</h1>
 		</header>
+    
+<section id="two">
+    <p>Innovate Trent is a group of students at Trent University in Peterborough, Ontario. We are dedicated to promoting and fostering new and exciting ideas that our fellow students may have.</p>
+    <br />
+    <p>For more information, please feel free to contact us using the form below. We'll be happy to discuss all things Innovate Trent!</p>
+    <br />
+    <p>Interested in joining Innovate Trent? Check out our <a href="{{ site.url }}/join">Join Us</a> page to find out more!</p>
+    
+</section>
 		
 {% include contact_form.html %}
+</div>

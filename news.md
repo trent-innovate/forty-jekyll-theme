@@ -7,6 +7,7 @@ nav-menu: true
 showit: 1
 ---
 
+
 <!-- Main -->
 <div id="main" class="alt">
 
@@ -17,6 +18,7 @@ showit: 1
 		</header>
 </div>
 
+<!-- Just a list of Posts
 <section id="two">
 	<div class="inner">
           {% for post in site.posts %}
@@ -24,15 +26,29 @@ showit: 1
 	  <header class="major">
 	    <h2>{{ post.title }}</h2>
 	  </header>
+      <p>{{ post.synopsis }}</p>    
 	  {% if post.date %}<p>{{ post.date }}</p>{% endif %}
 	  <a href="{{ post.url }}">Read More</a>
-		  
-		    
-		      
-		        
+      <hr />
+      <br />
 	  {% endif %}
-          {% endfor %}
-	</div>	
+      {% endfor %}   
 </section>
+	</div> 
+-->
 
+<section class="tiles">
+  {% for post in site.posts %}
+  <article>
+    <span class="image">
+      <img src="{{ post.image }}" alt="" />
+    </span>
+    <header class="major">
+      <h3><a href="{{ post.url  | relative_url }}" class="link">{{ post.title }}</a></h3>
+      <p>{{ post.synopsis | truncate: 150 }}</p>
+    </header>
+  </article>
+  {% endfor %}
+</section>
+   
 </div>

@@ -1,5 +1,9 @@
 source "https://rubygems.org"
-gem 'searchyll'
 gem 'jekyll'
 gem 'bundler'
 gem 'jekyll-asciinema'
+gem 'jekyll-youtube'
+gem 'jekyll-sitemap'
+gem 'jemoji'
+gem 'jekyll-avatar'
+gem 'github-pages'

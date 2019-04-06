@@ -35,5 +35,12 @@ sass:
   style: compressed
  
 plugins:
-  - searchyll
   - jekyll-asciinema
+  - jekyll-youtube
+  - jekyll-sitemap
+  - jemoji
+  - jekyll-avatar
+
+whitelist:
+ - jekyll-asciinema
+ - jekyll-youtube

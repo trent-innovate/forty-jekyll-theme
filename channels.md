@@ -16,8 +16,11 @@ showit: 1
 		<header class="major">
 			<h2>Innovate Channels</h2>
 		</header>
-</section>
-</div>	
+        
+        <iframe src="https://giphy.com/embed/LmWnCBTOGUmw8" width="480" height="364" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        
+        
+</div>
 	
 <!-- Three
 <section id="three">

@@ -25,7 +25,8 @@ showit: 1
 	    <h1>{{ post.title }}</h1>
 	  </header>
 	  {% if post.date %}<p>{{ post.date }}</p>{% endif %}
-	  <a href="{{ Read More }}">{{ post.url }}</a>
+	  <a href="{{ post.url }}">Read More</a>
+	  <br />
 	  {% endif %}
           {% endfor %}
 	</div>	

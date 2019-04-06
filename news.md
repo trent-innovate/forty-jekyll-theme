@@ -11,12 +11,11 @@ showit: 1
 <div id="main" class="alt">
 
 <!-- One -->
-<section id="one">
-	<div class="inner">
+<div class="inner">
 		<header class="major">
 			<h1>News</h1>
 		</header>
-		</section></div>
+</div>
 
 <section id="two">
 	<div class="inner">
@@ -26,9 +25,10 @@ showit: 1
 	    <h1>{{ post.title }}</h1>
 	  </header>
 	  {% if post.date %}<p>{{ post.date }}</p>{% endif %}
-	  <a href="{{ post.url }}">{{ post.url }}</a>
+	  <a href="{{ Read More }}">{{ post.url }}</a>
 	  {% endif %}
           {% endfor %}
 	</div>	
 </section>
+
 </div>

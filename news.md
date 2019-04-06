@@ -2,6 +2,7 @@
 layout: page
 title: News
 description: What we're working on
+image: assets/images/eastbank.jpg
 nav-menu: true
 showit: 1
 ---

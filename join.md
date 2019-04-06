@@ -15,4 +15,3 @@ showit: 0
 		<header class="major">
 			<h1>Join Us</h1>
 		</header>
-</section>

@@ -25,10 +25,8 @@ showit: 1
 	  <header class="major">
 	    <h2>{{ post.title }}</h2>
 	  </header>
-	  {% if post.date %}<p>{{ post.date }}</p>{% endif %}
-	  <a href="{{ post.url }}">Read More</a>
+	  {% if post.date %}<p>{{ post.date }}</p>{% endif %} - <a href="{{ post.url }}">Read More</a>
 	  <br />
-		
 	  {% endif %}
           {% endfor %}
 	</span>

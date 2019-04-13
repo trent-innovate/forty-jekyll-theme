@@ -17,7 +17,7 @@ showit: 1
 			<h2>Innovate Channels</h2>
 		</header>
         
-        <iframe src="https://giphy.com/embed/LmWnCBTOGUmw8" width="480" height="364" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+{% include searchbar.html %}
         
         
 </div>

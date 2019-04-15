@@ -31,7 +31,7 @@ var idx = lunr(function () {
 function lunr_search(term) {
     document.getElementById('lunrsearchresults').innerHTML = '<ul></ul>';
     if(term) {
-        document.getElementById('lunrsearchresults').innerHTML = "<p>Search results for '" + term + "'</p>" + document.getElementById('lunrsearchresults').innerHTML;
+        document.getElementById('lunrsearchresults').innerHTML = "<p>Search results for '" + term + "':</p>" + document.getElementById('lunrsearchresults').innerHTML;
         //put results on the screen.
         var results = idx.search(term);
         if(results.length>0){
@@ -42,7 +42,7 @@ function lunr_search(term) {
                 var ref = results[i]['ref'];
                 var url = documents[ref]['url'];
                 var title = documents[ref]['title'];
-                var body = documents[ref]['body'].substring(0,160)+'...';
+                var body = documents[ref]['article'].substring(0,160)+'...';
                 document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML = document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML + "<li class='lunrsearchresult'><a href='" + url + "'><span class='title'>" + title + "</span><br /><span class='body'>"+ body +"</span><br /><span class='url'>"+ url +"</span></a></li>";
             }
         } else {
@@ -53,9 +53,9 @@ function lunr_search(term) {
 }
 </script>
 <style>
-    .lunrsearchresult .title {color: #d9230f;}
+    .lunrsearchresult .title {color: #dddddd;}
     .lunrsearchresult .url {color: silver;}
-    .lunrsearchresult a {display: block; color: #777;}
+    .lunrsearchresult a {display: block; color: #ccc;}
     .lunrsearchresult a:hover, .lunrsearchresult a:focus {text-decoration: none;}
     .lunrsearchresult a:hover .title {text-decoration: underline;}
 </style>

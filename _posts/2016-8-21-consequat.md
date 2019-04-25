@@ -5,70 +5,12 @@ description: Ipsum dolor sit amet
 image: assets/images/pic05.jpg
 ---
 
-Everybody dance now!
-Everybody dance now!
-Give me the music
-Give me the music
-Everybody dance now!
-Give me the music
-Everybody dance now!
-Everybody dance now!
-Yeah!
-Yeah!
-Everybody dance now!
-Yeah!
-Yeah!
-Yeah!
-Everybody
-Here is the dome, back with the bass
-The jam is live in effect and I don't waste time
-On the mike with a dope rhyme
-Jump to the rhythm jump jump to the rhythm jump
-And I'm here to combine
-Beats and lyrics to make your shake your pants
-Take a chance, come on and dance
-Guys grab a girl, don't wait, make her twirl
-It's your world and I'm just a squirrel
-Tryin' to get a nut to move your butt
-To the dance floor, so yo what's up
-Hands in the air, come on say yeah
-Everybody over here everybody over there
-The crowd is live and I pursue this groove
-Party people in the house
-Move, move
-(Let your mind, put me on line)
-Come on let's sweat, baby
-Let the music take control
-Let the rhythm move you
-Sweat, sweat
-Let the music take control
-Let the rhythm move you
-Everybody dance now
-Everybody dance now!
-Everybody dance now!
-Pause, take a breath and go for yours
-On my command now hit the dance floor
-It's gonna make you sweat 'til you bleed
-Is that dope enough, indeed
-I paid the price, I control the dice
-I'm more precise, to the point I'm nice
-The music takes control, your heart and soul
-Unfold, your body is free and a whole
-Dance till you can't, dance
-Till you can't dance no more
-Get on the floor and get raw
-Then come back and upside down
-Easy now, let me see ya
-Move, move
-(Let your mind, put me on line)
-The music is my life
-Everybody dance now!
-Everybody dance now!
-Everybody dance now!
-Everybody dance now!
-Come on let's sweat, baby
-Let the music take control
-Let the rhythm move you
-Sweat, sweat
-Let the music take control
-Let the rhythm move you
+Another source of innovation, only now becoming widely recognized, is end-user innovation. This is where an agent (person or company) develops an innovation for their own (personal or in-house) use because existing products do not meet their needs. MIT economist Eric von Hippel has identified end-user innovation as, by far, the most important and critical in his classic book on the subject, The Sources of Innovation.
+
+However, innovation processes usually involve: identifying customer needs, macro and meso trends, developing competences, and finding financial support.
+
+The Kline chain-linked model of innovation places emphasis on potential market needs as drivers of the innovation process, and describes the complex and often iterative feedback loops between marketing, design, manufacturing, and R&D.
+
+Information technology and changing business processes and management style can produce a work climate favorable to innovation.  Google employees work on self-directed projects for 20% of their time (known as Innovation Time Off). Both companies cite these bottom-up processes as major sources for new products and features.
+
+One technique for innovating a solution to an identified problem is to actually attempt an experiment with many possible solutions. This technique was famously used by Thomas Edison's laboratory to find a version of the incandescent light bulb economically viable for home use, which involved searching through thousands of possible filament designs before settling on carbonized bamboo.

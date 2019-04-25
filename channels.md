@@ -31,8 +31,8 @@ showit: 3
     </span>
     <header class="major">
       <h3><a href="{{ post.url  | relative_url }}" class="link">{{ post.title }}</a></h3>
-      <p>{{ post.synopsis | truncate: 150 }}</p>
+      <p>{% if post.synopsis != nil %}{{ post.synopsis | truncate: 150 }}{% else %}{{ post.content | strip_html | truncate: 150 }}{% endif %}</p>
     </header>
   </article>
   {% endfor %}
-</section></div>
+</section>

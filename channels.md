@@ -4,7 +4,7 @@ layout: page
 description: See what's happening at Trent
 image: assets/images/gzowski.jpg
 nav-menu: true
-showit: 1
+showit: 3
 ---
 
 <!-- Main -->
@@ -19,19 +19,20 @@ showit: 1
         
 {% include searchbar.html %}
         
-        
+ <h3 class="center">All Channels:</h3>
+       
 </div>
-	
-<!-- Three
-<section id="three">
-	<div class="inner">
-		<header class="major">
-			<h2>Massa libero</h2>
-		</header>
-		<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
-		<ul class="actions">
-			<li><a href="generic.html" class="button next">Get Started</a></li>
-		</ul>
-	</div>
+
+<section class="tiles">
+  {% for post in site.posts %}
+  <article>
+    <span class="image">
+      <img src="{{ post.image }}" alt="" />
+    </span>
+    <header class="major">
+      <h3><a href="{{ post.url  | relative_url }}" class="link">{{ post.title }}</a></h3>
+      <p>{% if post.synopsis != nil %}{{ post.synopsis | truncate: 150 }}{% else %}{{ post.content | strip_html | truncate: 150 }}{% endif %}</p>
+    </header>
+  </article>
+  {% endfor %}
 </section>
--->

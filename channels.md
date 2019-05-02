@@ -16,11 +16,12 @@ showit: 3
 		<header class="major">
 			<h2>Innovate Channels</h2>
 		</header>
-        
+<h4 class="center">Try out our search bar test, powered by <a href="https://github.com/christian-fei/Simple-Jekyll-Search">simple-jekyll-search</a>!</h4>
+
 {% include searchbar.html %}
-        
+
  <h3 class="center">All Channels:</h3>
-       
+
 </div>
 
 <section class="tiles">

@@ -16,6 +16,7 @@ showit: 2
 		<header class="major">
 			<h1>News</h1>
 		</header>
+		<h5 class="center">No news is good news, right? We're working on our news function, but in the mean time, check out these placeholder posts:</h5>
 </div>
 
 <!-- Just a list of Posts
@@ -34,9 +35,8 @@ showit: 2
 	  {% endif %}
       {% endfor %}   
 </section>
-	</div> 
+	</div>
 -->
-
 <section class="tiles">
   {% for post in site.posts %}
   <article>
@@ -50,5 +50,5 @@ showit: 2
   </article>
   {% endfor %}
 </section>
-   
+
 </div>

@@ -1,8 +1,6 @@
 source "https://rubygems.org"
 gem 'jekyll'
 gem 'bundler'
-gem 'jekyll-asciinema'
-gem 'jekyll-youtube'
 gem 'jekyll-sitemap'
 gem 'jemoji'
 gem 'jekyll-avatar'

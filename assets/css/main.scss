@@ -4,8 +4,9 @@
 @import 'libs/functions';
 @import 'libs/mixins';
 @import 'libs/skel';
-@import 'font-awesome.min.css';
+@import 'all.min.css';
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic');
+@import '../webfonts/Fira-Code/fira_code.css';
 
 /*
 	Forty by HTML5 UP
@@ -59,7 +60,8 @@
 
 	@import 'components/section';
 	@import 'components/form';
-	@import 'components/box';
+  @import 'components/box';
+  @import 'components/dracula';
 	@import 'components/icon';
 	@import 'components/image';
 	@import 'components/list';
@@ -81,4 +83,8 @@
 
 .center {
     text-align: center;
+}
+
+code {
+  font-family: 'Fira Code', monospace;
 }

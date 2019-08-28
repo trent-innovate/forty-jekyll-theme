@@ -31,6 +31,8 @@ github_url: https://github.com/trent-innovate
 # build settings
 markdown: kramdown
 
+highlighter: rouge
+
 sass:
   style: compressed
  

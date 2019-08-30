@@ -21,9 +21,9 @@ showit: 0
 
 		<p>We're in the process of getting our website set up, so you might see some funny placeholder texts here or graphical glitches there. But, when Clubs and Groups Day 2019 arrives, be sure to come to our booth. We're already excited!</p>
 
-		<p>If you have any questions about what exactly Innovate Trent is, please feel free to drop us a line at <a href="mailto:innovate@trentu.ca">innovate@trentu.ca</a> and let's talk!</p>
+		<p>If you have any questions about what exactly Innovate Trent is, please feel free to drop us a line at <a href="mailto:innovate@trentu.ca?subject=Requesting Information about Innovate Trent">innovate@trentu.ca</a> and let's talk!</p>
 
-		<p>In the meantime, if you're just raring to go, you can join our <a href="https://www.facebook.com/groups/350257192197862/">Facebook Group</a>.</p>
+		<p>In the meantime, if you're just raring to go, you can join our <a href="https://www.facebook.com/groups/350257192197862/" target="_blank" rel="noreferrer">Facebook Group</a> and <a target="_blank" href="{{ site.discord_url }}" rel="noreferrer">Discord</a>!</p>
 
 		<p>We're currently looking to assemble a crack team of innovators, including executive members, graphic designers, web developers, project managers, accounting specialists, and entrepreneurs. If you're interested in being a core part of Innovate Trent, don't hesitate to let us know who you are. We can't wait to meet you!</p>
 

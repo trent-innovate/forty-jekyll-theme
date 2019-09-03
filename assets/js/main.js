@@ -207,8 +207,6 @@
 					$window.trigger('scroll');
 				});
 
-				$window.on('load', function() {
-
 					$banner.scrollex({
 						bottom:		$header.height() + 10,
 						terminate:	function() { $header.removeClass('alt'); },
@@ -219,9 +217,11 @@
 					window.setTimeout(function() {
 						$window.triggerHandler('scroll');
 					}, 100);
+			}
 
-				});
-
+			if($body.hasClass('is-ie')) {
+				$body.removeClass('is-loading')
+				$header.removeClass('alt')
 			}
 
 		// Banner.

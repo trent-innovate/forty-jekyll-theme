@@ -25,6 +25,4 @@ showit: 1
 	<p>In the mean-time, why not check out our <a href="{{ site.discord_url }}" target="_blank" rel="noreferrer">Discord</a>?</p>
 </article>
 </section>
-
-{% include contact_form.html %}
 </div>

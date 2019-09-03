@@ -41,3 +41,7 @@ plugins:
   - jekyll-sitemap
   - jemoji
   - jekyll-avatar
+
+collections:
+  minutes:
+    output: true

@@ -80,10 +80,51 @@
 	@import 'layout/wrapper';
 	@import 'layout/menu';
 
+// Custom Styles below this point (Innovate Trent-specific)
 .center {
     text-align: center;
 }
 
-code {
+code, .fira-code {
   font-family: 'Fira Code', monospace;
+}
+
+.homepage-video {
+  text-align: center;
+  max-width: 100%;
+  overflow: hidden;
+  @media screen and (min-width: $large-screen) {
+    width: 100vw;
+	height: 85vh;
+  }
+  @media screen and (max-width: $large-screen - 1) {
+	width: 100vw;
+	height: 90vh;
+  }
+}
+
+.youtube-player {
+	@media screen and (min-width: $large-screen) {
+	  height: 100%;
+	  width: 80%;
+	}
+	@media screen and (max-width: $large-screen - 1) {
+		width: 80%;
+		height: 75%;
+		position: relative;
+		top: 15vh;
+	}
+}
+
+.discord-link {
+  height: 30vh;
+  background-color: #7289DA;
+  width: 100vw;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  a {
+	position: relative;
+	top: 10vh;
+  }
 }

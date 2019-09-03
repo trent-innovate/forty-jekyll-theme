@@ -33,6 +33,16 @@
     <!-- Main -->
     <div id="main">
 
+        <div class="homepage-video">
+            <iframe class="youtube-player" type="text/html" allowfullscreen="true"
+  src="https://www.youtube.com/embed/YE7VzlLtp-4"
+  frameborder="0"></iframe>
+        </div>
+        <div class="discord-link">
+          <a class="button" href="{{ site.discord_url }}" rel="noreferrer" target="_blank"><span class="icon 
+          fab fa-discord fa-lg"></span> - Join our Discord!</a>
+        </div>
+
         <!-- One -->
         {% include tiles.html %}
 
@@ -50,8 +60,6 @@
         </section>
 
     </div>
-
-    {% include contact_form.html %}
     {% include footer.html %}
 
 </body>

@@ -36,3 +36,16 @@
 			}
 
 	}
+
+// Responsive Breakpoints - https://medium.com/codeartisan/breakpoints-and-media-queries-in-scss-46e8f551e2f2
+// Small tablets and large smartphones (landscape view)
+$small-screen: 576px;
+
+// Small tablets (portrait view)
+$medium-screen: 768px;
+
+// Tablets and small desktops
+$large-screen: 992px;
+
+// Large tablets and desktops
+$xl-screen: 1200px;

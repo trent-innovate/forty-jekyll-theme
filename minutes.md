@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: invisible
 title: Innovate Trent - Meeting Minutes
 ---
 

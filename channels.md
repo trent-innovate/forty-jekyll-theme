@@ -4,7 +4,6 @@ layout: page
 description: See what's happening at Trent
 image: assets/images/gzowski.jpg
 nav-menu: true
-showit: 3
 ---
 
 <!-- Main -->

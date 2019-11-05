@@ -1,5 +1,5 @@
 ---
-title: Design Teams
+title: Competiton Teams
 layout: page
 description: Meet the Teams
 image: assets/images/gzowski.jpg
@@ -14,9 +14,9 @@ showit: 3
 <article id="one">
 	<div class="inner">
 		<header class="major">
-			<h2>Design Teams</h2>
+			<h2>Competition Teams</h2>
 		</header>
-<h4 class="center">Welcome, one and all, to Innovate Trent's Design Teams page!
+<h4 class="center">Welcome, one and all, to Innovate Trent's Compeition Teams page!
 Here you'll find a list of our current teams, their members, and the badges they have earned.
 <br />
 <br />
@@ -28,10 +28,47 @@ Want to be a part of one of these fine teams? Perhaps you could consider <a href
 
 <article id="vue" v-bind:style="{ backgroundColor: teamColour }" class="center">
     <h3>(( teamName ))</h3>
+    <img class="team-logo" :src="teamLogo" :alt="teamName">
+    <br />
+    <br />
+    <p>
+      (( teamMotto ))
+    </p>
     <h4>Members: </h4>
     <ul class="outta-bullets">
       <div class="inline" v-for="(member, index) in teamMembers" :key="index">
-        <li class="member">(( member.name ))</li>
+        <li class="member-picture">
+        <img :src="member.picture" :alt="member.name" />
+        </li>
+        <span></span>
+      </div>
+      <br />
+      <div class="inline" v-for="(member, index) in teamMembers" :key="index">
+        <li class="member-name">(( member.name ))</li>
+        <span></span>
+      </div>
+      <br />
+      <div class="inline" v-for="(member, index) in teamMembers" :key="index">
+        <li class="member-name">
+        <div v-if="member.socials.facebook">
+          <a class="icon alt fab fa-facebook" :href="member.socials.facebook" rel="noreferrer nofollower" target="_blank"><span class="label">(( member.name ))'s Facebook</span></a>
+        </div>
+        <div v-if="member.socials.twitter">
+          <a class="icon alt fab fa-twitter" :href="member.socials.twitter" rel="noreferrer nofollower" target="_blank"><span class="label">(( member.name ))'s Twitter</span></a>
+        </div>
+        <div v-if="member.socials.github">
+          <a class="icon alt fab fa-github" :href="member.socials.github" rel="norefernofollower" target="_blank"><span class="label">(( member.name ))'s GitHub</span></a>
+        </div>
+        <div v-if="member.socials.instagram">
+          <a class="icon alt fab fa-github" :href="member.socials.instagram" rel="norefernofollower" target="_blank"><span class="label">(( member.name ))'s Instagram</span></a>
+        </div>
+        <div v-if="member.socials.dev">
+          <a class="icon alt fab fa-dev" :href="member.socials.dev" rel="noreferrer nofollower" target="_blank"><span class="label">(( member.name ))'s Dev.to</span></a>
+        </div>
+        <div v-if="member.socials.website">
+          <div class="www"><a :href="member.socials.website" rel="noreferrer nofollower" target="_blank"><small>WWW</small></a></div>    
+        </div>
+        </li>
         <span></span>
       </div>
     </ul>
@@ -39,7 +76,9 @@ Want to be a part of one of these fine teams? Perhaps you could consider <a href
     <div v-if="teamBadges != 'Waiting for Team Badges...'">
       <ul class="outta-bullets">
         <div class="inline" v-for="(badge, index) in teamBadges" :key="index">
-          <li class="badge">(( badge ))</li>
+          <li class="badge">
+            <img :src="`https://raw.githubusercontent.com/trent-innovate/design-teams-data/master/img/badges/${badge.name}`" :alt="badge.description" :data-tooltip="badge.description" />
+          </li>
           <span></span>
         </div>
       </ul>
@@ -69,12 +108,17 @@ var instance = new Vue({
       teamName: 'Waiting for Team Name...',
       teamColour: 'Waiting for Team Colour...',
       teamBadges: 'Waiting for Team Badges...',
-      teamMembers: []
+      teamMembers: [],
+      teamLogo: '',
+      teamMotto: '',
     }
   },
     created: function() {
       Vue.axios.get(api).then(function(response) {
+        console.log(response)
         instance.teamName = response.data.teams[0].name
+        instance.teamLogo = "https://raw.githubusercontent.com/trent-innovate/design-teams-data/master/img/logos/" + response.data.teams[0].logo
+        instance.teamMotto = response.data.teams[0].motto
         instance.teamColour = response.data.teams[0].colour
         instance.teamBadges = response.data.teams[0].badges
         instance.teamMembers = response.data.teams[0].members

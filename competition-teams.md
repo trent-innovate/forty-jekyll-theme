@@ -50,6 +50,9 @@ Want to be a part of one of these fine teams? Perhaps you could consider <a href
       <br />
       <div class="inline" v-for="(member, index) in teamMembers" :key="index">
         <li class="member-name">
+        <div v-if="member.socials.linkedin">
+          <a class="icon alt fab fa-dev" :href="member.socials.linkedin" rel="noreferrer nofollower" target="_blank"><span class="label">(( member.name ))'s LinkedIn</span></a>
+        </div>
         <div v-if="member.socials.facebook">
           <a class="icon alt fab fa-facebook" :href="member.socials.facebook" rel="noreferrer nofollower" target="_blank"><span class="label">(( member.name ))'s Facebook</span></a>
         </div>

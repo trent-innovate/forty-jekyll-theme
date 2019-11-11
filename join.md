@@ -9,6 +9,10 @@ showit: 0
 <!-- Main -->
 <div id="main" class="alt">
 
+<div id="app">
+  <particles></particles>
+</div>
+
 <!-- One -->
 <section id="one">
 	<div class="inner">

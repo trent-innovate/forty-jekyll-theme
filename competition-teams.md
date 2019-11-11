@@ -9,6 +9,32 @@ showit: 3
 
 <!-- Main -->
 <div id="main">
+<md-dialog :md-active.sync="showDialog">
+      <md-dialog-title>Preferences</md-dialog-title>
+      <md-tabs md-dynamic-height>
+        <md-tab md-label="General">
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam mollitia dolorum dolores quae commodi impedit possimus qui, atque at voluptates cupiditate. Neque quae culpa suscipit praesentium inventore ducimus ipsa aut.</p>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam mollitia dolorum dolores quae commodi impedit possimus qui, atque at voluptates cupiditate. Neque quae culpa suscipit praesentium inventore ducimus ipsa aut.</p>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam mollitia dolorum dolores quae commodi impedit possimus qui, atque at voluptates cupiditate. Neque quae culpa suscipit praesentium inventore ducimus ipsa aut.</p>
+        </md-tab>
+        <md-tab md-label="Activity">
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam mollitia dolorum dolores quae commodi impedit possimus qui, atque at voluptates cupiditate. Neque quae culpa suscipit praesentium inventore ducimus ipsa aut.</p>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam mollitia dolorum dolores quae commodi impedit possimus qui, atque at voluptates cupiditate. Neque quae culpa suscipit praesentium inventore ducimus ipsa aut.</p>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam mollitia dolorum dolores quae commodi impedit possimus qui, atque at voluptates cupiditate. Neque quae culpa suscipit praesentium inventore ducimus ipsa aut.</p>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam mollitia dolorum dolores quae commodi impedit possimus qui, atque at voluptates cupiditate. Neque quae culpa suscipit praesentium inventore ducimus ipsa aut.</p>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam mollitia dolorum dolores quae commodi impedit possimus qui, atque at voluptates cupiditate. Neque quae culpa suscipit praesentium inventore ducimus ipsa aut.</p>
+        </md-tab>
+        <md-tab md-label="Account">
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam mollitia dolorum dolores quae commodi impedit possimus qui, atque at voluptates cupiditate. Neque quae culpa suscipit praesentium inventore ducimus ipsa aut.</p>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam mollitia dolorum dolores quae commodi impedit possimus qui, atque at voluptates cupiditate. Neque quae culpa suscipit praesentium inventore ducimus ipsa aut.</p>
+        </md-tab>
+      </md-tabs>
+      <md-dialog-actions>
+        <md-button class="md-primary" @click="showDialog = false">Close</md-button>
+        <md-button class="md-primary" @click="showDialog = false">Save</md-button>
+      </md-dialog-actions>
+    </md-dialog>
+    <md-button class="md-primary md-raised" @click="showDialog = true">Show Dialog</md-button>
 
 <!-- One -->
 <article id="one">
@@ -21,6 +47,7 @@ Here you'll find a list of our current teams, their members, and the badges they
 <br />
 <br />
 Want to be a part of one of these fine teams? Perhaps you could consider <a href="{{ site.url}}/join">joining us!</a></h4>
+
 </div>
 </article>
 
@@ -96,9 +123,12 @@ apparently doesn't like it, so I'm leaving it out. -->
 <script src="https://vuejs.org/js/vue.js" type="text/javascript"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js" type="text/javascript"></script>
 <script src="https://unpkg.com/vue-axios@2.1.4/dist/vue-axios.min.js" type="text/javascript"></script>
-
+<script src="https://unpkg.com/vue-material"></script>
 
 <script>
+
+Vue.use(VueMaterial.default)
+
 // This variable stores the URL of the JSON file
 var api = "https://raw.githubusercontent.com/trent-innovate/design-teams-data/master/teams.json";
 
@@ -114,6 +144,7 @@ var instance = new Vue({
       teamMembers: [],
       teamLogo: '',
       teamMotto: '',
+      showDialog: false
     }
   },
     created: function() {

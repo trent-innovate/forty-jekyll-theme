@@ -41,7 +41,25 @@ plugins:
   - jekyll-sitemap
   - jemoji
   - jekyll-avatar
+  - jekyll-feed
 
 collections:
   minutes:
     output: true
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - package.lock.json
+  - package.json
+  - webpack.config.babel.js
+  - src
+  - .editorconfig
+  - .eslintignore
+  - .eslintrc.js
+  - test/

@@ -9,8 +9,10 @@ showit: 0
 <!-- Main -->
 <div id="main" class="alt">
 
+<!-- I think all the Vue stuff has to be in its own little div#app -->
 <div id="app">
   <particles></particles>
+  <modal text="Hello There!"></modal>
 </div>
 
 <!-- One -->

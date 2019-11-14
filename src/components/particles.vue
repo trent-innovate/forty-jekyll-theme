@@ -1,3 +1,5 @@
+<!-- With a bit of CSS, this could be perfect -->
+
 <template>
   <div
     :id="id"

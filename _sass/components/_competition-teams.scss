@@ -28,7 +28,6 @@
   transition: 0.5s;
 }
 
-
 .comp-team-container {
   height: 47.5vw;
   width: 47.5vw;
@@ -153,7 +152,7 @@
       .modal-member-container {
         width: 100vw;
         height: 80%;
-        border-bottom: 3px double #1d1c1c59;
+        border-top: 3px double #1d1c1c59;
 
         .modal-member-content-img {
           width: 34vw;
@@ -175,17 +174,25 @@
         }
 
         .modal-member-content-more {
-          width: 20vw;
-          position: relative;
-
-          button {
-            position: absolute;
-            top: 30%;
+          &:not(.active) {
             width: 20vw;
-            padding: 0;
+            position: relative;
+            button {
+              position: absolute;
+              top: 30%;
+              width: 20vw;
+              padding: 0;
+            }
           }
         }
       }
+    }
+
+    .active {
+      button {
+      margin-left: 45vw;
+      padding: 0;
+     }
     }
 
     .comp-team-generate-team {
@@ -202,8 +209,10 @@
   }
 
   .modal-member-details {
-    height: 80%;
+    //height: 80%;
     width: 100vw;
+    border-top: 3px solid #1d1c1c59;
+
     .modal-member-content-socials {
       width: 100vw;
       display: flex;
@@ -220,8 +229,6 @@
       font-weight: 515;
     }
   }
-
-
 
   .badge-explainer-mobile {
     display: flex;

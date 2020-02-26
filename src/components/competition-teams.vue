@@ -36,9 +36,7 @@ Vue.use(VueTippy)
 
 Vue.component('tippy', TippyComponent)
 
-const api =
-  'https://raw.githubusercontent.com/trent-innovate/design-teams-data/master/offline_editor_data.json'
-
+const api = 'https://raw.githubusercontent.com/trent-innovate/design-teams-data/master/offline_editor_data.json'
 export default {
   name: 'CompetitionTeams',
   data: function () {
@@ -83,7 +81,10 @@ Vue.component('member', {
     name: String,
     image: String,
     desc: String,
-    facebook: String
+    facebook: String,
+    github: String,
+    twitter: String,
+    website: String
   },
   data: function () {
     return {
@@ -93,6 +94,7 @@ Vue.component('member', {
   methods: {
     memberDetails: function () {
       this.showDetails = !this.showDetails
+      console.log(this)
     }
   },
   template: `
@@ -112,15 +114,16 @@ Vue.component('member', {
 
     <div class="modal-member-details" v-else>
       <div class="modal-member-content-socials">
-        <a href="#" class="icon alt fab fa-github" target="_blank" rel="noreferrer"><span class="label modal-member-icon">GitHub</span></a>
-        <a :href="facebook" class="icon alt fab fa-facebook" target="_blank" rel="noreferrer"><span class="label modal-member-icon">Facebook</span></a>
-        <a href="#" class="icon alt fab fa-twitter" target="_blank" rel="noreferrer"><span class="label modal-member-icon">Twitter</span></a>
+        <a v-if="github" :href="github" class="icon alt fab fa-github" target="_blank" rel="noreferrer"><span class="label modal-member-icon">GitHub</span></a>
+        <a v-if="facebook" :href="facebook" class="icon alt fab fa-facebook" target="_blank" rel="noreferrer"><span class="label modal-member-icon">Facebook</span></a>
+        <a v-if="twitter" :href="twitter" class="icon alt fab fa-twitter" target="_blank" rel="noreferrer"><span class="label modal-member-icon">Twitter</span></a>
+        <a v-if="website" :href="website" class="icon alt fab www" target="_blank" rel="noreferrer"><span class="label modal-member-icon">Website</span></a>
       </div>
 
       <div :style="{ borderLeft: '2px solid #F69D5C' }" class="modal-member-content-name">
         <p class="modal-member-content-desc">This will hold the description of the member. Perhaps their year, program of study, hobbies.</p>
       </div>     
-      <div class="modal-member-content-more">
+      <div class="modal-member-content-more" :class="{ active: showDetails }">
         <button :style="{ color: '#F69D5C' }" v-on:click="memberDetails" class="member-font-size">...</button>
       </div>   
     </div>
@@ -210,8 +213,10 @@ Vue.component('team', {
               :name="member.member_name"
               :image="member.member_picture"
               :facebook="member.member_facebook"
-            >
-            </member>
+              :github="member.member_github"
+              :twitter="member.member_twitter"
+              :website="member.member_website"
+            ></member>
           </div>
         </div>
       </div>
